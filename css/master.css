@@ -19,10 +19,10 @@ body {
   justify-content: center;
 }
 
-.section p {
+.section {
   display: flex;
   justify-content: center;
-  color: #fff;
+  color: #c7c1c1;
   font-size: 25px;
 }
 
