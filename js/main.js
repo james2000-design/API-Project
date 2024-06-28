@@ -25,7 +25,6 @@ const fetchData = async () => {
   let loadingMessage = `<p class= 'loading'>Getting Forecast...</p>`;
   result.innerHTML = loadingMessage;
   const loadingInterval = setInterval(() => {
-    loadingMessage += ".";
     result.innerHTML = loadingMessage;
   }, 300);
   try {
