@@ -1,0 +1,134 @@
+body {
+  background-color: #d7d7d7;
+  color: black;
+  background-image: url("/images/bkg.png"),
+    linear-gradient(to right, #032080, #0085c7, #032080);
+  background-size: contain;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.image img {
+  width: 100%;
+}
+.container {
+  width: 100%;
+}
+.sub-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.section p {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-size: 25px;
+}
+
+#query-form {
+  display: flex;
+  justify-content: center;
+}
+.copyright-text {
+  font-size: 15px;
+  color: #439aeb;
+}
+.copyright-text a {
+  text-decoration: none;
+  color: #d9cece;
+}
+.keyword-magnet {
+  background-color: #0085c7;
+  border-radius: 10px;
+  padding: 5px;
+}
+.citySelected {
+  text-align: center;
+  display: flex;
+  justify-self: center;
+}
+
+.section-subheading {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: relative;
+}
+.section-subheading .loading {
+  display: flex;
+  font-size: 20px;
+  margin-top: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  justify-content: center;
+  text-align: center;
+  position: absolute;
+  top: 10%;
+  left: 0;
+  right: 0;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+.weather-date {
+  color: #ff0;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card-top {
+  background-color: #439aeb;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 5px;
+  text-align: center;
+}
+.card-body {
+  background-color: #001964;
+  color: #ffe8c6;
+  text-align: center;
+  width: 100%;
+}
+
+/* .loading {
+  font-size: 20px;
+  margin-top: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+} */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+}
+
+@media (max-width: 768px) {
+  .section-subheading {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .card {
+    margin-bottom: 15px;
+  }
+}
+/* @media (max-width: 425px) {
+  .section-subheading {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+} */
