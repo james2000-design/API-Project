@@ -5,6 +5,8 @@ body {
     linear-gradient(to right, #032080, #0085c7, #032080);
   background-size: contain;
   width: 100%;
+  margin-right: 0px;
+  padding: 0%;
   margin-bottom: 10px;
 }
 .image img {
@@ -12,6 +14,8 @@ body {
 }
 .container {
   width: 100%;
+  margin: 0%;
+  padding: 0%;
 }
 .sub-container {
   width: 100%;
@@ -76,7 +80,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-right: 20px;
+  /* margin-right: 20px; */
 }
 .weather-date {
   color: #ff0;
@@ -99,15 +103,6 @@ body {
   width: 100%;
 }
 
-/* .loading {
-  font-size: 20px;
-  margin-top: 10px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: bold;
-  color: #fff;
-  text-align: center;
-} */
-
 footer {
   display: flex;
   flex-direction: column;
@@ -120,7 +115,9 @@ footer {
 @media (max-width: 768px) {
   .section-subheading {
     flex-wrap: wrap;
+    gap: 10px;
     justify-content: center;
+    margin-right: 0px;
   }
   .card {
     margin-bottom: 15px;
